@@ -22,5 +22,5 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Hello
-        run: echo "hello world"
+        run: whoami
         shell: bash
