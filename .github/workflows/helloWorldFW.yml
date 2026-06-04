@@ -23,4 +23,5 @@ jobs:
       - uses: actions/checkout@v4
       - name: Hello
         run: uptime
+        run: echo "hello world"
         shell: bash
