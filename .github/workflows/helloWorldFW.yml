@@ -22,6 +22,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Hello
-        run: uptime
-        run: echo "hello world"
+      - run: uptime
+      - run: echo "hello world"
         shell: bash
