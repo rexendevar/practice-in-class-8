@@ -22,5 +22,5 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Hello
-        run: whoami
+        run: uptime
         shell: bash
