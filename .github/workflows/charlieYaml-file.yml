@@ -1,4 +1,4 @@
-name: Hello World flynn
+name: Hello World charlie1
 
 # Events
 
@@ -22,14 +22,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Hello
-        run: echo "Hello World 1"
+        run: echo "hello world"
         shell: bash
-  hello2:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - name: Hello2
-        run: |
-          uptime
-          echo "hello world 2"
-        shell: bash
+      
